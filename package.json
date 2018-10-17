@@ -1,0 +1,16 @@
+{
+  "name": "testserverlesscicd",
+  "version": "1.0.0",
+  "description": "test serverless with circleci",
+  "main": "handler.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha **/*.spec.js"
+  },
+  "author": "Alice Goh",
+  "license": "UNLICENSED"
+}
